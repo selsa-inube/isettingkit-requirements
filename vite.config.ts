@@ -19,14 +19,13 @@ export default defineConfig({
         "styled-components",
         "react-icons/md",
         "@inubekit/divider",
+        "@inubekit/button",
         "@inubekit/foundations",
         "@inubekit/grid",
+        "@inubekit/hooks",
         "@inubekit/icon",
-        "@inubekit/input",
         "@inubekit/stack",
         "@inubekit/text",
-        "@inubekit/textarea",
-        "@inubekit/toggle",
       ],
       output: {
         globals: {

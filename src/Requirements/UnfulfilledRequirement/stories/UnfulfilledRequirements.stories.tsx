@@ -1,11 +1,11 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { UnfulfilledRequirements } from "..";
+import { UnfulfilledRequirement } from "..";
 
-type Story = StoryObj<typeof UnfulfilledRequirements>;
+type Story = StoryObj<typeof UnfulfilledRequirement>;
 
-const meta: Meta<typeof UnfulfilledRequirements> = {
-  component: UnfulfilledRequirements,
-  title: "components/alerts/UnfulfilledRequirements",
+const meta: Meta<typeof UnfulfilledRequirement> = {
+  component: UnfulfilledRequirement,
+  title: "components/alerts/UnfulfilledRequirement",
   parameters: {
     docs: {
       description: {

@@ -1,3 +1,5 @@
-export { UnfulfilledRequirements } from "./Requirements/UnfulfilledRequirements";
+export { UnfulfilledRequirement } from "./Requirements/UnfulfilledRequirement";
+export { RequirementsContainerGrid } from "./Requirements/RequirementsContainerGrid";
 
-export type { IUnfulfilledRequirements } from "./Requirements/UnfulfilledRequirements";
+export type { IUnfulfilledRequirement } from "./Requirements/UnfulfilledRequirement";
+export type { IRequirementsContainerGrid } from "./Requirements/RequirementsContainerGrid";

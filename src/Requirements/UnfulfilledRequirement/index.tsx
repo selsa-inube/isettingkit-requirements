@@ -6,14 +6,14 @@ import { Stack } from "@inubekit/stack";
 import { Text } from "@inubekit/text";
 import { Fieldset } from "../Fieldset";
 
-interface IUnfulfilledRequirements {
+interface IUnfulfilledRequirement {
   title: string;
   requirement: string;
   causeNonCompliance: string;
   isMobile?: boolean;
 }
 
-const UnfulfilledRequirements = (props: IUnfulfilledRequirements) => {
+const UnfulfilledRequirement = (props: IUnfulfilledRequirement) => {
   const { title, requirement, causeNonCompliance, isMobile } = props;
   return (
     <Fieldset title={title} isMobile={isMobile}>
@@ -40,5 +40,5 @@ const UnfulfilledRequirements = (props: IUnfulfilledRequirements) => {
   );
 };
 
-export { UnfulfilledRequirements };
-export type { IUnfulfilledRequirements };
+export { UnfulfilledRequirement };
+export type { IUnfulfilledRequirement };
