@@ -1,3 +1,15 @@
+# v0.1.2 (Thu Nov 07 2024)
+
+#### ⚠️ Pushed to `main`
+
+- feat: export container as well ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v0.1.1 (Thu Nov 07 2024)
 
 #### ⚠️ Pushed to `main`
