@@ -1,11 +1,11 @@
 {
-  "name": "@inubekit/your-component-name",
+  "name": "@isettingkit/requirements",
   "homepage": "https://inubeds.vercel.app/",
   "author": "inube",
   "main": "dist/index.es.js",
   "keywords": [
     "inube",
-    "design-system",
+    "isetting",
     "react"
   ],
   "description": "",
@@ -18,7 +18,8 @@
     }
   },
   "files": [
-    "dist/index.es.js"
+    "dist/index.es.js",
+    "dist/index.es.d.ts"
   ],
   "scripts": {
     "dev": "vite",
@@ -31,11 +32,23 @@
     "auto": "auto",
     "changelog": "npm run auto changelog",
     "version": "rm -rf dist && npm run build",
-    "release": "git push --follow-tags && npm run auto release"
+    "release": "git push --follow-tags && npm run auto release",
+    "autorelease": "auto shipit"
   },
   "dependencies": {
+    "@inubekit/divider": "^0.16.1",
+    "@inubekit/button": "4.44.1",
+    "@inubekit/foundations": "^5.11.3",
+    "@inubekit/grid": "^2.14.1",
+    "@inubekit/hooks": "^1.2.0",
+    "@inubekit/icon": "^2.18.1",
+    "@inubekit/stack": "^3.8.1",
+    "@inubekit/text": "^2.17.0"
+  },
+  "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
     "styled-components": "^6.1.8"
   },
   "publishConfig": {
@@ -77,7 +90,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/selsa-inube/inubekit-REPOSITORY-NAME.git"
+    "url": "git+https://github.com/selsa-inube/isettingkit-requirements.git"
   },
   "auto": {
     "plugins": [
