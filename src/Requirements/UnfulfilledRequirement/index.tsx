@@ -1,9 +1,7 @@
 import { MdWarningAmber } from "react-icons/md";
 
-import { Divider } from "@inubekit/divider";
-import { Icon } from "@inubekit/icon";
-import { Stack } from "@inubekit/stack";
-import { Text } from "@inubekit/text";
+import { Divider,Icon,Stack,Text } from "@inubekit/inubekit";
+
 import { Fieldset } from "../Fieldset";
 
 interface IUnfulfilledRequirement {

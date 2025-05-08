@@ -18,14 +18,7 @@ export default defineConfig({
         "react/jsx-runtime",
         "styled-components",
         "react-icons/md",
-        "@inubekit/divider",
-        "@inubekit/button",
-        "@inubekit/foundations",
-        "@inubekit/grid",
-        "@inubekit/hooks",
-        "@inubekit/icon",
-        "@inubekit/stack",
-        "@inubekit/text",
+        "@inubekit/inubekit",
       ],
       output: {
         globals: {

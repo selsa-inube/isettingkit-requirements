@@ -1,4 +1,4 @@
-import { Grid } from "@inubekit/grid";
+import { Grid } from "@inubekit/inubekit";
 import {
   IUnfulfilledRequirement,
   UnfulfilledRequirement,

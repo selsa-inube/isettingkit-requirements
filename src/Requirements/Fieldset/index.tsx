@@ -1,9 +1,6 @@
 import { useState } from "react";
 import { MdAdd } from "react-icons/md";
-import { useMediaQuery } from "@inubekit/hooks";
-import { Text } from "@inubekit/text";
-import { Stack } from "@inubekit/stack";
-import { Button } from "@inubekit/button";
+import { useMediaQuery,Text,Stack,Button } from "@inubekit/inubekit";
 import { StyledContainerFieldset } from "./styles";
 
 interface IOptionsButton {
